@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Button } from './Button';
 import * as FaIcons from "react-icons/fa";
 import '../styles/Navbar.css';
@@ -30,34 +30,35 @@ function Navbar() {
         <Link to="/">
           rooya
         </Link>
-        {options && <ul>
-          <li className='nav-item'>
-            <Link to='/about-us'>
-              About Us
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/solutions'>
-              Solutions
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/tech'>
-              Tech
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/drivers-app'>
-              Driver's app
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/support'>
-              Support
-            </Link>
-          </li>
-        </ul>}
-        {button && <Button buttonStyle='btn--primary'>Book a demo</Button>}
+        {options &&
+          <ul className='ul'>
+            <li className='nav-item'>
+              <NavLink to='/about-us'>
+                About Us
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink to='/solutions'>
+                Solutions
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink to='/tech'>
+                Tech
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink to='/drivers-app'>
+                Driver's app
+              </NavLink>
+            </li>
+            <li className='nav-item'>
+              <NavLink to='/support'>
+                Support
+              </NavLink>
+            </li>
+          </ul>}
+        {button && <Button path="/sign-up" buttonStyle='btn--primary'>Book a demo</Button>}
         {list && <FaIcons.FaBars style={{ cursor: "pointer", color: "purple" }} />}
       </nav>
     </>

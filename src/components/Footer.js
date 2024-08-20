@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../styles/Footer.css';
 
 function Footer() {
@@ -14,15 +15,15 @@ function Footer() {
                     </div>
                     <div className="footer_links-div">
                         <p className='title'>Neque nisl</p>
-                        <p style={{ fontWeight: "bold" }}>About Us</p>
-                        <p>Solutions</p>
-                        <p>Tech</p>
-                        <p>Driver's app</p>
+                        <NavLink to="about-us" className="footer-link">About Us</NavLink>
+                        <NavLink to="solutions" className="footer-link">Solutions</NavLink>
+                        <NavLink to="tech" className="footer-link">Tech</NavLink>
+                        <NavLink to="drivers-app" className="footer-link">Driver's app</NavLink>
                     </div>
                     <div className="footer_links-div">
                         <p className='title'>Imperdiet</p>
                         <p>Contact us</p>
-                        <p>Support</p>
+                        <NavLink to="support" className="footer-link">Support</NavLink>
                         <p>Privacy policy</p>
                         <p>Terms and conditions</p>
                     </div>
