@@ -1,0 +1,37 @@
+.section_padding {
+    padding: 1rem 1rem;
+}
+
+.sb__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.footer_links-div {
+    max-width: 350px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+p {
+    padding: 5px 0px;
+    font-weight: bold;
+}
