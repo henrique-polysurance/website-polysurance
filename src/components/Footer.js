@@ -8,10 +8,10 @@ function Footer() {
                 <div className="footer_links">
                     <div className="footer_links-div">
                         <h1 className='title'>rooya</h1>
-                        <p>Facebook | +966 543279266 | contact@rooya.ai</p>
-                        <p style={{ fontWeight: "lighter" }}>Riyadh-al-Olaya-Tahlia Street-Duaithar</p>
-                        <p style={{ fontWeight: "lighter" }}>Compound, Kingdom of Saudi Arabia</p>
-                        <p style={{ fontWeight: "lighter", padding: '2rem 0px' }}>Copyright © 2024 Rooya. All Rights Reserved</p>
+                        <p style={{ padding: "1rem 0px" }}>Facebook | +966 543279266 | contact@rooya.ai</p>
+                        <p>Riyadh-al-Olaya-Tahlia Street-Duaithar</p>
+                        <p>Compound, Kingdom of Saudi Arabia</p>
+                        <p style={{ padding: '2rem 0px' }}>Copyright © 2024 Rooya. All Rights Reserved</p>
                     </div>
                     <div className="footer_links-div">
                         <p className='title'>Neque nisl</p>
@@ -22,10 +22,10 @@ function Footer() {
                     </div>
                     <div className="footer_links-div">
                         <p className='title'>Imperdiet</p>
-                        <p>Contact us</p>
+                        <p className="p-footer">Contact us</p>
                         <NavLink to="support" className="footer-link">Support</NavLink>
-                        <p>Privacy policy</p>
-                        <p>Terms and conditions</p>
+                        <p className="p-footer">Privacy policy</p>
+                        <p className="p-footer">Terms and conditions</p>
                     </div>
                 </div>
             </div>

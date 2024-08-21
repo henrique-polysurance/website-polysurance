@@ -8,6 +8,7 @@ import Solutions from './pages/Solutions';
 import Tech from './pages/Tech';
 import DriversApp from './pages/DriversApp';
 import Support from './pages/Support';
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/tech' element={<Tech />} />
           <Route path='/drivers-app' element={<DriversApp />} />
           <Route path='/support' element={<Support />} />
+          <Route path='/sign-up' element={<SignUp />} />
         </Routes>
         <Footer />
       </Router>

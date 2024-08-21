@@ -33,11 +33,6 @@ function Navbar() {
         {options &&
           <ul className='ul'>
             <li className='nav-item'>
-              <NavLink to='/about-us'>
-                About Us
-              </NavLink>
-            </li>
-            <li className='nav-item'>
               <NavLink to='/solutions'>
                 Solutions
               </NavLink>
@@ -53,12 +48,18 @@ function Navbar() {
               </NavLink>
             </li>
             <li className='nav-item'>
-              <NavLink to='/support'>
+              <NavLink to='/support' className="nav-link">
                 Support
               </NavLink>
             </li>
-          </ul>}
-        {button && <Button path="/sign-up" buttonStyle='btn--primary'>Book a demo</Button>}
+            <li className='nav-item'>
+              <NavLink to='/about-us'>
+                About Us
+              </NavLink>
+            </li>
+          </ul>
+        }
+        {button && <Button path="/sign-up">Book a demo</Button>}
         {list && <FaIcons.FaBars style={{ cursor: "pointer", color: "purple" }} />}
       </nav>
     </>

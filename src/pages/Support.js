@@ -4,7 +4,9 @@ class Support extends Component {
     render() {
         return (
             <>
-                <h1>Support</h1>
+                <div style={{ textAlign: "center", padding: "5rem" }}>
+                    <h1>Support</h1>
+                </div>
             </>
         );
     }

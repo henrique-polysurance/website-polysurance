@@ -7,8 +7,9 @@ class Home extends Component {
             <>
                 <div style={{ textAlign: "center", padding: "5rem" }}>
                     <h1>Meet Rooya Vision</h1>
-                    <p style={{ padding: "1rem" }}>Cutting-edge AI telematics and dual dash-cam technology to improve road safety and fleet efficiency in Saudi Arabia</p>
-                    <Button path="/" buttonStyle='btn--primary' buttonSize='btn--large'>Discover our solutions</Button>
+                    <p style={{ padding: "1rem" }}>Cutting-edge AI telematics and dual dash-cam technology
+                        to improve road safety and fleet efficiency in Saudi Arabia</p>
+                    <Button path="/">Discover our solutions</Button>
                 </div>
             </>
         );

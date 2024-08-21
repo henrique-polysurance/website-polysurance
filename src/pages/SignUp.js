@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class Solutions extends Component {
+class Home extends Component {
     render() {
         return (
             <>
                 <div style={{ textAlign: "center", padding: "5rem" }}>
-                    <h1>Solutions</h1>
+                    <h1>Sign Up</h1>
                 </div>
             </>
         );
     }
 }
 
-export default Solutions;
+export default Home;
