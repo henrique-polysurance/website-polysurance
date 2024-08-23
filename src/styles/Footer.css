@@ -26,9 +26,10 @@
     flex-direction: column;
 }
 
-.title{
+.footer-title{
     margin-bottom: 1rem;
     font-weight: lighter;
+    color: #7f7f7f;
 }
 
 .p-footer{

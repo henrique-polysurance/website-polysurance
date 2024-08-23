@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 
 function Footer() {
     return (
-        <div className="footer" style={{ padding: '50px', backgroundColor: "purple", color: 'white', textAlign: 'center', width: "100%" }}>
+        <div className="footer" style={{ padding: '50px', backgroundColor: "#252424", color: 'white', textAlign: 'center', width: "100%" }}>
             <div className="sb__footer section_padding">
                 <div className="footer_links">
                     <div className="footer_links-div">
@@ -14,18 +14,25 @@ function Footer() {
                         <p style={{ padding: '2rem 0px' }}>Copyright © 2024 Rooya. All Rights Reserved</p>
                     </div>
                     <div className="footer_links-div">
-                        <p className='title'>Neque nisl</p>
-                        <NavLink to="about-us" className="footer-link">About Us</NavLink>
-                        <NavLink to="solutions" className="footer-link">Solutions</NavLink>
-                        <NavLink to="tech" className="footer-link">Tech</NavLink>
+                        <p className='footer-title'>Solutions</p>
+                        <NavLink to="fleet" className="footer-link">Fleet</NavLink>
+                        <NavLink to="insurers" className="footer-link">Insurers</NavLink>
+                        <NavLink to="industry" className="footer-link">Industry</NavLink>
                         <NavLink to="drivers-app" className="footer-link">Driver's app</NavLink>
                     </div>
                     <div className="footer_links-div">
-                        <p className='title'>Imperdiet</p>
-                        <p className="p-footer">Contact us</p>
+                        <p className='footer-title'>Company</p>
+                        <NavLink to="about-us" className="footer-link">About us</NavLink>
+                        <NavLink to="/" className="footer-link">CSR</NavLink>
+                        <NavLink to="/" className="footer-link">Contact us</NavLink>
                         <NavLink to="support" className="footer-link">Support</NavLink>
-                        <p className="p-footer">Privacy policy</p>
-                        <p className="p-footer">Terms and conditions</p>
+                    </div>
+                    <div className="footer_links-div">
+                        <p className='footer-title'>Client portal</p>
+                        <NavLink to="/" className="footer-link">Client portal</NavLink>
+                        <NavLink to="/" className="footer-link">Log in</NavLink>
+                        <NavLink to="/" className="footer-link">Privacy policy</NavLink>
+                        <NavLink to="/" className="footer-link">Terms and conditions</NavLink>
                     </div>
                 </div>
             </div>

@@ -9,6 +9,8 @@ import Tech from './pages/Tech';
 import DriversApp from './pages/DriversApp';
 import Support from './pages/Support';
 import SignUp from './pages/SignUp';
+import Fleet from './pages/Fleet';
+import Insurers from './pages/Insurers';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path='/solutions' element={<Solutions />} />
           <Route path='/tech' element={<Tech />} />
           <Route path='/drivers-app' element={<DriversApp />} />
+          <Route path='/fleet' element={<Fleet />} />
+          <Route path='/insurers' element={<Insurers />} />
           <Route path='/support' element={<Support />} />
           <Route path='/sign-up' element={<SignUp />} />
         </Routes>

@@ -1,25 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    /* font-family: 'Montserrat', sans-serif; */
-    font-family: Arial;
-}
-
 :root {
-    --darkblue: darkblue;
+    --green: #479f6d;
     --white: #fff;
-    --dark: black;
-    --purple: purple;
+    --darkergray: #252424;
 }
-
 
 body {
-    color: var(--darkblue);
+    color: var(--darkergray);
     background-color: var(--white);
 }
 
@@ -33,11 +19,17 @@ a {
     justify-content: space-between;
     padding: 18px 40px;
     width: 100%;
-    background-color: lightgrey;
+    background-color: var(--darkergray);
+    color: var(--white);
 }
 
 .navbar ul {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+.navbar-link {
+    padding: 5px 0px;
+    color: white;
 }

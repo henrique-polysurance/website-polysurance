@@ -1,5 +1,7 @@
 :root {
-    --primary: purple;
+    --green: #479f6d;
+    --white: white;
+    --darkgray: #252424;
 }
 
 .btn {
@@ -10,19 +12,31 @@
     cursor: pointer;
 }
 
-.btn--primary {
-    background-color: var(--primary);
+.btn--green {
+    background-color: var(--green);
     color: white;
-    border: 1px solid var(--primary);
+    border: 1px solid var(--green);
+}
+
+.btn--green:hover {
+    background: white;
+    color: #479f6d;
+    transition: 250ms;
+}
+
+.btn--white {
+    background-color: var(--white);
+    color: var(--darkgray);
+    border: 1px solid var(--darkgray);
+}
+
+.btn--white:hover {
+    background: var(--darkgray);
+    color: var(--white);
+    transition: 250ms;
 }
 
 .btn--large {
     padding: 12px 26px;
     font-size: 20px;
-}
-
-.btn--large:hover {
-    background: #fff;
-    color: purple;
-    transition: 250ms;
 }
